@@ -173,6 +173,90 @@ I have 4 people in my family, my mom, my dad, and my older brother. My two favor
 </body>
 </html>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/MNS7j8C/image.png" alt="image" border="0"></a>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .quiz-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .question {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .option {
+            margin: 5px 0;
+        }
+        .option label {
+            cursor: pointer;
+        }
+        #result {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 class="question" id="question">Question 1: What is the capital of France?</h1>
+        <ul class="options" id="options">
+            <li class="option">
+                <input type="radio" name="answer" id="option1" value="a">
+                <label for="option1">a) London</label>
+            </li>
+            <li class="option">
+                <input type="radio" name="answer" id="option2" value="b">
+                <label for="option2">b) Madrid</label>
+            </li>
+            <li class="option">
+                <input type="radio" name="answer" id="option3" value="c">
+                <label for="option3">c) Paris</label>
+            </li>
+        </ul>
+        <button onclick="checkAnswer()">Submit Answer</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        const correctAnswer = 'c'; // The correct answer for the question
+
+        function checkAnswer() {
+            const selectedOption = document.querySelector('input[name="answer"]:checked');
+            const result = document.getElementById('result');
+
+            if (selectedOption) {
+                if (selectedOption.value === correctAnswer) {
+                    result.textContent = 'Correct! Well done!';
+                } else {
+                    result.textContent = 'Incorrect. Please try again.';
+                }
+            } else {
+                result.textContent = 'Please select an option.';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/MNS7j8C/image.png" alt="image" border="0"></a>
+
+
 ## Errors and Trouble Shooting Along the Way:
 -The largest issue I faced was lack of storage. When I started this class, I figured out I had about 7 GBs of storage left. I ended up spending a lot of time trying to delete things, and figuring out what to delete since about 180 GBs were labeled under "Others." 
 

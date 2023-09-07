@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: false
-layout: posts
+layout: post
 title: Calculator 
 description: Example Plan!!! Analyze hacks and plan.
 type: hacks
