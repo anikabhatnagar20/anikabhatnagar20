@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Calculator 
-description: Example Plan!!! Analyze hacks and plan.
+description: My calculator
 type: hacks
 courses: { compsci: {week: 1} }
 ---
@@ -38,16 +38,13 @@ courses: { compsci: {week: 1} }
             </tr>
         </table>
     </div>
-    
     <script>
         function appendToDisplay(value) {
             document.getElementById('display').value += value;
         }
-
         function clearDisplay() {
             document.getElementById('display').value = '';
         }
-
         function calculate() {
             var expression = document.getElementById('display').value;
             var result = eval(expression);
@@ -55,7 +52,6 @@ courses: { compsci: {week: 1} }
         }
     </script>
 </body>
-</html>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/MNS7j8C/image.png" alt="image" border="0"></a>
 <html>
 <head>
@@ -66,9 +62,8 @@ courses: { compsci: {week: 1} }
       margin: 0;
       padding: 0;
     }
-    
     #game {
       margin-top: 50px;
     }
   </style>
-</head>\
+</head>

@@ -263,3 +263,19 @@ I have 4 people in my family, my mom, my dad, and my older brother. My two favor
 -Another big issue we faced was that the make command would not work. At first, we thought the issue was with the notebook converter because when trouble shooting, we deleted the notbook, and the make command was working. Though we later found out there was an issue with the python version we had. We had python3, and once we got rid of the 3, it ended up working!  
 
 -Another struggle we came across was when trying to insert a picture. When we added a image, rather then the image showing up on the blog, there was a small blue folder icon, and to fix this we figured out we needed to adjust the code. In the end, we was able to create our blog, and information add about us and our experience creating the blog. 
+
+
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Cursive Font on Purple Background</title>
+    <style>
+        body {
+            background-color: pink; /* Set background color to purple */
+            color: blue; /* Set text color to white */
+            font-family: times new roman; /* Use cursive font-family */
+            font-size: 18px; /* Set the font size (adjust as needed) */
+        }
+    </style>
