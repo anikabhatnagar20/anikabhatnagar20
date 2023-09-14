@@ -274,7 +274,7 @@ I have 4 people in my family, my mom, my dad, and my older brother. My two favor
     <style>
         body {
             background-color: pink; /* Set background color to purple */
-            color: blue; /* Set text color to white */
+            color: white; /* Set text color to white */
             font-family: times new roman; /* Use cursive font-family */
             font-size: 18px; /* Set the font size (adjust as needed) */
         }
