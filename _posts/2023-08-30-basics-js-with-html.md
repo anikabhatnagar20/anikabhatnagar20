@@ -349,10 +349,10 @@ console.log(titleElement.innerHTML)
 <br>
 
 <div class="Links">
-    <a target="_blank" href="https://poway.instructure.com/">Canvas</a>
+    <a target="_blank" href="https://www.amazon.com/">Amazon</a>
     <br>
     <br>
-    <a target="_blank" href="https://github.com/">Github</a>
+    <a target="_blank" href="https://us.shein.com/">Shein</a>
     <br>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident maiores, dolorum officiis qui iure, delectus eum enim minus facere eius quisquam! Veniam nostrum tempora alias natus praesentium in accusantium laborum!</p>
 </div>
