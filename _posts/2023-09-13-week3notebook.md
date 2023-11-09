@@ -6,7 +6,7 @@ title: Week 3 Lab Noteboook
 description: Week 3 Lab Notebook
 type: tangibles
 courses: { compsci: {week: 3} }
----
+---`
 
 # Week 3 Lab Notebook
 
