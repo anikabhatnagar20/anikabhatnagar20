@@ -262,12 +262,25 @@ Loops in Simulations:
 
 # Key Commit 
 
+from flask import Blueprint, jsonify, request
+import pandas as pd
+import yfinance as yf
+import plotly.graph_objs as go
+from datetime import datetime
+from flask_restful import Api, Resource
+import numpy as np
+from flask_cors import CORS
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+import random
 stock_api = Blueprint('stock_api', __name__, url_prefix='/api/stocks')
 api = Api(stock_api)
 CORS(stock_api)
 def get_stock_graph(stock_name):
     end_date = datetime.now()
     start_date = end_date - pd.Timedelta(days=4856)
+
     df = yf.download(stock_name, start=start_date, end=end_date)
 
     graph = go.Figure(data=go.Candlestick(x=df.index,
@@ -315,18 +328,45 @@ class _GetLatestStockData(Resource):
             return jsonify(latest_data_dict)
         except Exception as e:
             return jsonify({'error': str(e)}), 500
-
-
 api.add_resource(_GetLatestStockData, '/latest_data/<string:stock_name>')
-
 api.add_resource(_ReadStockGraph, '/stock_graph/<string:stock_name>')
+
 It grabs the stock data for the latest business day by sending a request to the Yahoo Finance API and turning it into a JSON string that can be accessed by the frontend to create a list of the data from the inputted stock using a fetch request.
+
 # Reflection
+
 ## Issues Faced 
 - Passion Project: At first we had a little trouble deciding the specifics of our project. We wanted something finance-related, our opinions on its purpose varied. We were split prettty half and half on if we should make it a tax organizer or a stock market app. Eventually, we focused on creating an app that teaches beginners about the stock market.
+-Passion Project: Many teams struggle to connect their frontend and backend, and our team did too. We had to adjust our frontend to match the backend, which helped us all learn more about the code.
+- Personal: I had really bad storage issues to the point where I could not download the needed apps for this class. I had only around 7 gbs left. I had to go through and delete so many things off of myt Macbook to the point where I once acciedntly deleted all my contacts!
+
+
+
+## What I learned throughout Trimester 1 
+- Learning how to use Github and VS code
+
+- Fundementals for python 
+
+- How to work with a partner and small group 
+
+- How to deal with an issue, ask for help
+
+
 ## Hopes For Trimester 2 
-Fixing problems in programs by stopping them at certain points to find errors.
-Getting better at computer science by learning about the data that runs in the background.
-Discovering more about how to connect different parts of a website and make them work together.
-Becoming more familiar with using the text-based control of a computer.
+- Fixing problems in programs by stopping them at certain points to find errors.
+- Getting better at computer science by learning about the data that runs in the background.
+- Discovering more about how to connect different parts of a website and make them work together.
+- Becoming more familiar with using the text-based control of a computer.
+
+## Advice I would give to someone who wants to take CSP 
+- Make sure you surround yourself with people you know can work, and wont distract you. 
+
+- Stay on task, this class moves pretty fast and missing information can be really hard to deal with since we are still learning the basics. 
+
+- Always be ready to put in extra effort outside of class. I didn't really have a background with coding so I would have to work at home to either learn the concepts better or finish up some classwork/homework on my own. 
+
+### Overall this has been a very fun class where I learned many things and I am very excited to continue doing so next trimester. 
+
+
+
 
