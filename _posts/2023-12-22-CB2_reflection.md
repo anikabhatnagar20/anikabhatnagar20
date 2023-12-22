@@ -31,7 +31,7 @@ Q37 DrawLine on a coordinate grid
 Q53 Crowdsourced pet finder
 - For this one, I picked the option that seems the most effienct in finidng the pet, which is a location tracker. Though I missed the part that describes it as a crowdsourcing system. Thats why the best option would be the app that allows locals to post/report about missing pets, since this is more focused for local areas and uses the help of other people. 
 
-After reviewing the questions that I missed what I think I would do is make sure that I am able to fully read and understand what the question is asking. For the future, when practicing more questions I want to be able to find a good middle, where I dont run and I also don't second guess my choices. For teh specific topics I think are harder, I would make sure to watch the collegeboard videos or get the extra help I need. 
+After reviewing the questions that I missed what I think I would do is make sure that I am able to fully read and understand what the question is asking. For the future, when practicing more questions I want to be able to find a good middle, where I dont run and I also don't second guess my choices. For the specific topics I think are harder, I would make sure to watch the collegeboard videos or get the extra help I need. I would also rveiew teh material we learn about in class, like the team teaches, which definetly helped me learning the material.  
 
 
 
