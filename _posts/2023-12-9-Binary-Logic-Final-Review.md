@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Binary Logic Final Review
 description: This is the review ticket of our binary project
-type: tangibles 
+type: Tangibles 
 courses: { csp: {week: 15} }
 ---
 
