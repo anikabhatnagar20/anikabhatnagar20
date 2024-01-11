@@ -1,9 +1,11 @@
 ---
+toc: true
+comments: false
 layout: post
-toc: false
-description:
-courses: { csp: {week: 15} }
+title: Binary Logic Final Review
+description: This is the review ticket of our binary project
 type: tangibles 
+courses: { csp: {week: 15} }
 ---
 
 # Binary Logic: Arcade 
