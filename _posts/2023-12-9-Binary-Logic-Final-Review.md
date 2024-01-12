@@ -3,7 +3,7 @@ layout: post
 toc: false
 title: Binary Logic Final Review
 description: This is the review ticket of our binary project
-courses: { csp: {week: 16} }
+courses: { compsci: {week: 16} }
 type: tangibles
 ---
 
